@@ -5,6 +5,7 @@ import { rankPlayers, calculateTeamRating } from "./scoring";
 import { FileUpload } from "./components/FileUpload";
 import { CategoryTabs } from "./components/CategoryTabs";
 import { BubbleTable } from "./components/BubbleTable";
+import { Footer } from "./components/Footer";
 
 export default function App() {
   const [players, setPlayers] = useState<Player[] | null>(null);
@@ -34,7 +35,7 @@ export default function App() {
     <div className="app">
       <div className="app__container">
         <div className="app__header">
-          <h1 className="app__title">Hockey Nation Skill Viewer</h1>
+          <h1 className="app__title">HN Skill Viewer</h1>
           <p className="app__subtitle">
             Upload a Hockey Nation skill export to view, sort, and analyze your
             roster.
@@ -68,6 +69,7 @@ export default function App() {
             </div>
           </div>
         )}
+        <Footer />
       </div>
     </div>
   );

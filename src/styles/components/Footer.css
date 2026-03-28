@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 48px;
+  padding: 24px 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer__text {
+  font-size: 12px;
+  color: var(--color-text-dim);
+}
+
+.footer__link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color var(--ease-default);
+}
+
+.footer__link:hover {
+  color: var(--color-text-primary);
+}
