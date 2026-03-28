@@ -1,0 +1,37 @@
+.file-upload {
+  border: 2px dashed var(--color-border-drop);
+  border-radius: var(--radius-lg);
+  padding: 48px 24px;
+  text-align: center;
+  cursor: pointer;
+  background: var(--color-bg-subtle);
+  transition: border-color var(--ease-default), background var(--ease-default);
+}
+
+.file-upload:hover {
+  border-color: var(--color-border-muted-hover);
+}
+
+.file-upload--drag-over {
+  border-color: var(--color-border-drop-active);
+  background: rgba(74, 222, 128, 0.04);
+}
+
+.file-upload__label {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.file-upload__hint {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--color-text-dim);
+}
+
+.file-upload__error {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--color-text-error);
+  font-weight: 500;
+}

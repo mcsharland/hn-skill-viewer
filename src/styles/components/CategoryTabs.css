@@ -1,0 +1,30 @@
+.category-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.category-tabs__btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-inactive-tab);
+  background: var(--color-bg-subtle-hover);
+  transition: all var(--ease-spring);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.category-tabs__btn-label {
+  /* inherits from button */
+}
+
+.category-tabs__btn-rating {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+}
